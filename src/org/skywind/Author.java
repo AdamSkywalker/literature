@@ -1,12 +1,9 @@
 package org.skywind;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * Created by sergey on 28.02.16.
  */
-public class Author {
+public class Author implements Comparable<Author> {
 
     private int birthYear;
     private Integer deathYear;
@@ -42,5 +39,31 @@ public class Author {
 
     public int getGoogleSearchResultCount() {
         return googleSearchResultCount;
+    }
+
+    @Override
+    public String toString() {
+        return "Author{" +
+                "birthYear=" + birthYear +
+                ", deathYear=" + deathYear +
+                ", name='" + name + '\'' +
+                ", country='" + country + '\'' +
+                ", googleSearchResultCount=" + googleSearchResultCount +
+                ", rating=" + getRating().intValue() +
+                '}';
+    }
+
+    public Double getRating() {
+        double ageK = 21L - birthYear / 100;
+        return smoothRanking(ageK) * googleSearchResultCount / 1000;
+    }
+
+    protected static double smoothRanking(double rating) {
+        return 4 * rating / (rating + 1) - 1;
+    }
+
+    @Override
+    public int compareTo(Author o) {
+        return Double.compare(o.getRating(), getRating());
     }
 }
