@@ -11,7 +11,7 @@ public class App {
 
     public static void main(String[] args) throws IOException {
         List<Author> authors = readAuthors();
-        authors.stream().sorted().forEach(a -> System.out.println(a.toString()));
+        authors.stream().sorted().forEach(System.out::println);
     }
 
     private static List<Author> readAuthors() throws IOException {

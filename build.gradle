@@ -9,3 +9,7 @@ sourceCompatibility = 1.8
 repositories {
     mavenCentral()
 }
+
+dependencies {
+    compile group: 'commons-lang', name: 'commons-lang', version: '2.6'
+}
