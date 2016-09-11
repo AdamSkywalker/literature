@@ -55,7 +55,7 @@ public class Author implements Comparable<Author> {
 
         String n = String.format("%1$-20s", name);
         String c = String.format("%1$-12s", country);
-        return "  " + r + "\t" + n + "\t" + c + "  ";
+        return "  " + r + "\t" + n + "\t" + c + "<br/>";
     }
 
     public Double getRating() {
