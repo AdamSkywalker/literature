@@ -2,7 +2,8 @@ package org.skywind;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-import static java.lang.Math.sqrt;
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
 
 /**
  * Created by sergey on 28.02.16.
@@ -15,8 +16,13 @@ public class Author implements Comparable<Author> {
     private String name;
     private String country;
 
-    private long googleSearchResultCount;
-    private long googleSearchResultCountPerson;
+    private double googleSearchResultCount;
+    private double googleSearchResultCountPerson;
+
+    private Double goodReadingRating;
+
+    @JsonIgnore
+    private Rating rating;
 
     public int getBirthYear() {
         return birthYear;
@@ -34,35 +40,45 @@ public class Author implements Comparable<Author> {
         return country;
     }
 
-    public long getGoogleSearchResultCount() {
+    public double getGoogleSearchResultCount() {
         return googleSearchResultCount;
     }
 
-    public long getGoogleSearchResultCountPerson() {
+    public double getGoogleSearchResultCountPerson() {
         return googleSearchResultCountPerson;
+    }
+
+    public Double getGoodReadingRating() {
+        return goodReadingRating;
     }
 
     @Override
     public String toString() {
-        String r = String.format("%08d", new Double((getRating() * 100)).intValue());
+        String total = String.format("%04d", new Double((getRating() * 10)).intValue());
 
         String n = String.format("%1$-24s", name);
         String c = String.format("%1$-16s", country);
-        return "    " + r + "   " + n + "   " + c;
+        NumberFormat formatter = new DecimalFormat("#0.0");
+        Rating r = this.rating;
+        String numbers = formatter.format(r.getRating()) + " " + r.search + " " + r.person + " " + r.gr;
+
+        return "    " + total + "   " + n + "   " + c + " " + numbers;
     }
 
     @JsonIgnore
     public Double getRating() {
-        double ageK = (21L - birthYear / 100);
-        //double ratingK = googleSearchResultCount;
-        double s = 0.0000001 * googleSearchResultCount;
-        double p = 0.001 * googleSearchResultCountPerson;
-        double ratingK = 0.00001 * sqrt(s) * p * p;
-        return smoothRanking(ageK) * ratingK;
+        //double ageK = (2100L - birthYear);
+        double k = rating.getRating();
+
+        return k;
     }
 
-    protected static double smoothRanking(double rating) {
-        return 8 * rating / (rating + 1.5);
+    public void setRating(Rating r) {
+        this.rating = r;
+    }
+
+    protected static double smoothRanking(double x) {
+        return 10 * x / (x + 100);
     }
 
     @Override
