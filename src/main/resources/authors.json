@@ -1,0 +1,762 @@
+[
+  {
+    "birthYear": 1795,
+    "deathYear": 1829,
+    "name": "Alexander Griboedov",
+    "country": "Russia",
+    "googleSearchResultCount": 574000,
+    "googleSearchResultCountPerson": 181000
+  },
+  {
+    "birthYear": 1799,
+    "deathYear": 1937,
+    "name": "Alexander Pushkin",
+    "country": "Russia",
+    "googleSearchResultCount": 14300000,
+    "googleSearchResultCountPerson": 466000
+  },
+  {
+    "birthYear": 1809,
+    "deathYear": 1852,
+    "name": "Nikolai Gogol",
+    "country": "Ukraine",
+    "googleSearchResultCount": 676000,
+    "googleSearchResultCountPerson": 479000
+  },
+  {
+    "birthYear": 1812,
+    "deathYear": 1891,
+    "name": "Ivan Goncharov",
+    "country": "Russia",
+    "googleSearchResultCount": 660000,
+    "googleSearchResultCountPerson": 320000
+  },
+  {
+    "birthYear": 1814,
+    "deathYear": 1841,
+    "name": "Mikhail Lermontov",
+    "country": "Russia",
+    "googleSearchResultCount": 1650000,
+    "googleSearchResultCountPerson": 410000
+  },
+  {
+    "birthYear": 1818,
+    "deathYear": 1883,
+    "name": "Ivan Turgenev",
+    "country": "Russia",
+    "googleSearchResultCount": 817000,
+    "googleSearchResultCountPerson": 404000
+  },
+  {
+    "birthYear": 1821,
+    "deathYear": 1881,
+    "name": "Fedor Dostoevskiy",
+    "country": "Russia",
+    "googleSearchResultCount": 1430000,
+    "googleSearchResultCountPerson": 485000
+  },
+  {
+    "birthYear": 1828,
+    "deathYear": 1910,
+    "name": "Lev Tolstoi",
+    "country": "Russia",
+    "googleSearchResultCount": 591000,
+    "googleSearchResultCountPerson": 470000
+  },
+  {
+    "birthYear": 1828,
+    "deathYear": 1889,
+    "name": "Nikolay Chernishevskiy",
+    "country": "Russia",
+    "googleSearchResultCount": 415000,
+    "googleSearchResultCountPerson": 144000
+  },
+  {
+    "birthYear": 1860,
+    "deathYear": 1904,
+    "name": "Anton Chekhov",
+    "country": "Russia",
+    "googleSearchResultCount": 1050000,
+    "googleSearchResultCountPerson": 480000
+  },
+  {
+    "birthYear": 1868,
+    "deathYear": 1936,
+    "name": "Maxim Gorkiy",
+    "country": "Russia",
+    "googleSearchResultCount": 671000,
+    "googleSearchResultCountPerson": 467000
+  },
+  {
+    "birthYear": 1870,
+    "deathYear": 1924,
+    "name": "Vladimir Lenin",
+    "country": "Russia",
+    "googleSearchResultCount": 14500000,
+    "googleSearchResultCountPerson": 432000
+  },
+  {
+    "birthYear": 1890,
+    "deathYear": 1960,
+    "name": "Boris Pasternak",
+    "country": "Russia",
+    "googleSearchResultCount": 940000,
+    "googleSearchResultCountPerson": 364000
+  },
+  {
+    "birthYear": 1870,
+    "deathYear": 1938,
+    "name": "Alexander Kuprin",
+    "country": "Russia",
+    "googleSearchResultCount": 600000,
+    "googleSearchResultCountPerson": 265000
+  },
+  {
+    "birthYear": 1891,
+    "deathYear": 1940,
+    "name": "Mikhail Bulgakov",
+    "country": "Russia",
+    "googleSearchResultCount": 605000,
+    "googleSearchResultCountPerson": 489000
+  },
+  {
+    "birthYear": 1899,
+    "deathYear": 1977,
+    "name": "Vladimir Nabokov",
+    "country": "Russia",
+    "googleSearchResultCount": 506000,
+    "googleSearchResultCountPerson": 262000
+  },
+  {
+    "birthYear": 1724,
+    "deathYear": 1804,
+    "name": "Immanuele Kant",
+    "country": "Germany",
+    "googleSearchResultCount": 13000000,
+    "googleSearchResultCountPerson": 660000
+  },
+  {
+    "birthYear": 1749,
+    "deathYear": 1832,
+    "name": "Johann Goethe",
+    "country": "Germany",
+    "googleSearchResultCount": 12300000,
+    "googleSearchResultCountPerson": 470000
+  },
+  {
+    "birthYear": 1770,
+    "deathYear": 1831,
+    "name": "Georg Hegel",
+    "country": "Germany",
+    "googleSearchResultCount": 850000,
+    "googleSearchResultCountPerson": 592000
+  },
+  {
+    "birthYear": 1788,
+    "deathYear": 1860,
+    "name": "Arthur Schopenhauer",
+    "country": "Germany",
+    "googleSearchResultCount": 758000,
+    "googleSearchResultCountPerson": 440000
+  },
+  {
+    "birthYear": 1818,
+    "deathYear": 1883,
+    "name": "Karl Marx",
+    "country": "Germany",
+    "googleSearchResultCount": 53900000,
+    "googleSearchResultCountPerson": 500000
+  },
+  {
+    "birthYear": 1820,
+    "deathYear": 1895,
+    "name": "Friedrich Engels",
+    "country": "Germany",
+    "googleSearchResultCount": 8330000,
+    "googleSearchResultCountPerson": 332000
+  },
+  {
+    "birthYear": 1844,
+    "deathYear": 1900,
+    "name": "Friedrich Nietzsche",
+    "country": "Germany",
+    "googleSearchResultCount": 16500000,
+    "googleSearchResultCountPerson": 497000
+  },
+  {
+    "birthYear": 1883,
+    "deathYear": 1924,
+    "name": "Franz Kafka",
+    "country": "Germany",
+    "googleSearchResultCount": 12300000,
+    "googleSearchResultCountPerson": 467000
+  },
+  {
+    "birthYear": 1889,
+    "deathYear": 1945,
+    "name": "Adolph Hitler",
+    "country": "Germany",
+    "googleSearchResultCount": 41000000,
+    "googleSearchResultCountPerson": 604000
+  },
+  {
+    "birthYear": 1889,
+    "deathYear": 1976,
+    "name": "Martin Heidegger",
+    "country": "Germany",
+    "googleSearchResultCount": 7280000,
+    "googleSearchResultCountPerson": 546000
+  },
+  {
+    "birthYear": 1898,
+    "deathYear": 1970,
+    "name": "Erich Maria Remarque",
+    "country": "Germany",
+    "googleSearchResultCount": 660000,
+    "googleSearchResultCountPerson": 136000
+  },
+  {
+    "birthYear": 1900,
+    "deathYear": 1980,
+    "name": "Erich Fromm",
+    "country": "Germany",
+    "googleSearchResultCount": 669000,
+    "googleSearchResultCountPerson": 146000
+  },
+  {
+    "birthYear": 1856,
+    "deathYear": 1939,
+    "name": "Sigmund Freud",
+    "country": "Austria",
+    "googleSearchResultCount": 19600000,
+    "googleSearchResultCountPerson": 763000
+  },
+  {
+    "birthYear": 1881,
+    "deathYear": 1942,
+    "name": "Stefan Zweig",
+    "country": "Austria",
+    "googleSearchResultCount": 601000,
+    "googleSearchResultCountPerson": 275000
+  },
+  {
+    "birthYear": 1632,
+    "deathYear": 1677,
+    "name": "Baruch Spinoza",
+    "country": "Denmark",
+    "googleSearchResultCount": 539000,
+    "googleSearchResultCountPerson": 469000
+  },
+  {
+    "birthYear": 1813,
+    "deathYear": 1855,
+    "name": "Soren Kierkegaard",
+    "country": "Denmark",
+    "googleSearchResultCount": 528000,
+    "googleSearchResultCountPerson": 411000
+  },
+  {
+    "birthYear": 1564,
+    "deathYear": 1616,
+    "name": "William Shakespeare",
+    "country": "England",
+    "googleSearchResultCount": 72700000,
+    "googleSearchResultCountPerson": 1360000
+  },
+  {
+    "birthYear": 1608,
+    "deathYear": 1674,
+    "name": "John Milton",
+    "country": "England",
+    "googleSearchResultCount": 787000,
+    "googleSearchResultCountPerson": 638000
+  },
+  {
+    "birthYear": 1775,
+    "deathYear": 1817,
+    "name": "Jane Austen",
+    "country": "England",
+    "googleSearchResultCount": 2200000,
+    "googleSearchResultCountPerson": 540000
+  },
+  {
+    "birthYear": 1788,
+    "deathYear": 1824,
+    "name": "George Gordon Byron",
+    "country": "England",
+    "googleSearchResultCount": 18000000,
+    "googleSearchResultCountPerson": 561000
+  },
+  {
+    "birthYear": 1795,
+    "deathYear": 1821,
+    "name": "John Keats",
+    "country": "England",
+    "googleSearchResultCount": 7360000,
+    "googleSearchResultCountPerson": 480000
+  },
+  {
+    "birthYear": 1797,
+    "deathYear": 1851,
+    "name": "Mary Shelley",
+    "country": "England",
+    "googleSearchResultCount": 34300000,
+    "googleSearchResultCountPerson": 599000
+  },
+  {
+    "birthYear": 1811,
+    "deathYear": 1863,
+    "name": "William Thackeray",
+    "country": "England",
+    "googleSearchResultCount": 585000,
+    "googleSearchResultCountPerson": 403000
+  },
+  {
+    "birthYear": 1812,
+    "deathYear": 1870,
+    "name": "Charles Dickens",
+    "country": "England",
+    "googleSearchResultCount": 34500000,
+    "googleSearchResultCountPerson": 478000
+  },
+  {
+    "birthYear": 1816,
+    "deathYear": 1855,
+    "name": "Charlotte Bronte",
+    "country": "England",
+    "googleSearchResultCount": 806000,
+    "googleSearchResultCountPerson": 519000
+  },
+  {
+    "birthYear": 1821,
+    "deathYear": 1867,
+    "name": "Charles Baudler",
+    "country": "England",
+    "googleSearchResultCount": 4510000,
+    "googleSearchResultCountPerson": 456000
+  },
+  {
+    "birthYear": 1856,
+    "deathYear": 1900,
+    "name": "Oscar Wilde",
+    "country": "England",
+    "googleSearchResultCount": 43500000,
+    "googleSearchResultCountPerson": 615000
+  },
+  {
+    "birthYear": 1859,
+    "deathYear": 1930,
+    "name": "Arthur Conan Doyle",
+    "country": "England",
+    "googleSearchResultCount": 8440000,
+    "googleSearchResultCountPerson": 550000
+  },
+  {
+    "birthYear": 1864,
+    "deathYear": 1960,
+    "name": "Ethel Voynich",
+    "country": "England",
+    "googleSearchResultCount": 50000,
+    "googleSearchResultCountPerson": 278000
+  },
+  {
+    "birthYear": 1866,
+    "deathYear": 1946,
+    "name": "Herbert Wells",
+    "country": "England",
+    "googleSearchResultCount": 58200000,
+    "googleSearchResultCountPerson": 447000
+  },
+  {
+    "birthYear": 1894,
+    "deathYear": 1963,
+    "name": "Auldous Huxley",
+    "country": "England",
+    "googleSearchResultCount": 1130000,
+    "googleSearchResultCountPerson": 558000
+  },
+  {
+    "birthYear": 1903,
+    "deathYear": 1950,
+    "name": "George Oruell",
+    "country": "England",
+    "googleSearchResultCount": 20200000,
+    "googleSearchResultCountPerson": 480000
+  },
+  {
+    "birthYear": 1911,
+    "deathYear": 1993,
+    "name": "William Golding",
+    "country": "England",
+    "googleSearchResultCount": 908000,
+    "googleSearchResultCountPerson": 382000
+  },
+  {
+    "birthYear": 1926,
+    "deathYear": 2005,
+    "name": "John Fowles",
+    "country": "England",
+    "googleSearchResultCount": 520000,
+    "googleSearchResultCountPerson": 185000
+  },
+  {
+    "birthYear": 1933,
+    "deathYear": 2015,
+    "name": "Oliver Sacks",
+    "country": "England",
+    "googleSearchResultCount": 1740000,
+    "googleSearchResultCountPerson": 371000
+  },
+  {
+    "birthYear": 1622,
+    "deathYear": 1673,
+    "name": "Molière",
+    "country": "France",
+    "googleSearchResultCount": 5240000,
+    "googleSearchResultCountPerson": 300000
+  },
+  {
+    "birthYear": 1694,
+    "deathYear": 1798,
+    "name": "Voltaire",
+    "country": "France",
+    "googleSearchResultCount": 38900000,
+    "googleSearchResultCountPerson": 552000
+  },
+  {
+    "birthYear": 1712,
+    "deathYear": 1778,
+    "name": "Jean-Jacques Rousseau",
+    "country": "France",
+    "googleSearchResultCount": 23800000,
+    "googleSearchResultCountPerson": 539000
+  },
+  {
+    "birthYear": 1713,
+    "deathYear": 1784,
+    "name": "Denis Diderot",
+    "country": "France",
+    "googleSearchResultCount": 6090000,
+    "googleSearchResultCountPerson": 306000
+  },
+  {
+    "birthYear": 1783,
+    "deathYear": 1842,
+    "name": "Stendhal",
+    "country": "France",
+    "googleSearchResultCount": 6180000,
+    "googleSearchResultCountPerson": 225000
+  },
+  {
+    "birthYear": 1799,
+    "deathYear": 1850,
+    "name": "Honoré de Balzac",
+    "country": "France",
+    "googleSearchResultCount": 600000,
+    "googleSearchResultCountPerson": 429000
+  },
+  {
+    "birthYear": 1802,
+    "deathYear": 1885,
+    "name": "Victor Hugo",
+    "country": "France",
+    "googleSearchResultCount": 81100000,
+    "googleSearchResultCountPerson": 500000
+  },
+  {
+    "birthYear": 1802,
+    "deathYear": 1870,
+    "name": "Alexandre Dumas",
+    "country": "France",
+    "googleSearchResultCount": 11700000,
+    "googleSearchResultCountPerson": 386000
+  },
+  {
+    "birthYear": 1804,
+    "deathYear": 1876,
+    "name": "George Sand",
+    "country": "France",
+    "googleSearchResultCount": 65000000,
+    "googleSearchResultCountPerson": 521000
+  },
+  {
+    "birthYear": 1821,
+    "deathYear": 1880,
+    "name": "Gustave Flaubert",
+    "country": "France",
+    "googleSearchResultCount": 852000,
+    "googleSearchResultCountPerson": 426000
+  },
+  {
+    "birthYear": 1828,
+    "deathYear": 1905,
+    "name": "Jules Verne",
+    "country": "France",
+    "googleSearchResultCount": 19700000,
+    "googleSearchResultCountPerson": 496000
+  },
+  {
+    "birthYear": 1840,
+    "deathYear": 1902,
+    "name": "Émile Zola",
+    "country": "France",
+    "googleSearchResultCount": 7340000,
+    "googleSearchResultCountPerson": 292000
+  },
+  {
+    "birthYear": 1850,
+    "deathYear": 1893,
+    "name": "Guy de Maupassant",
+    "country": "France",
+    "googleSearchResultCount": 696000,
+    "googleSearchResultCountPerson": 311000
+  },
+  {
+    "birthYear": 1905,
+    "deathYear": 1980,
+    "name": "Jean-Paul Sartre",
+    "country": "France",
+    "googleSearchResultCount": 9350000,
+    "googleSearchResultCountPerson": 436000
+  },
+  {
+    "birthYear": 1900,
+    "deathYear": 1940,
+    "name": "Antoine de Saint-Exupéry",
+    "country": "France",
+    "googleSearchResultCount": 2720000,
+    "googleSearchResultCountPerson": 397000
+  },
+  {
+    "birthYear": 1908,
+    "deathYear": 1986,
+    "name": "Simone de Beauvoir",
+    "country": "France",
+    "googleSearchResultCount": 13030000,
+    "googleSearchResultCountPerson": 1970000
+  },
+  {
+    "birthYear": 1913,
+    "deathYear": 1960,
+    "name": "Albert Camus",
+    "country": "France",
+    "googleSearchResultCount": 15100000,
+    "googleSearchResultCountPerson": 1970000
+  },
+  {
+    "birthYear": 1965,
+    "deathYear": null,
+    "name": "Frédéric Beigbeder",
+    "country": "France",
+    "googleSearchResultCount": 1350000,
+    "googleSearchResultCountPerson": 77000
+  },
+  {
+    "birthYear": 1265,
+    "deathYear": 1321,
+    "name": "Dante Alighieri",
+    "country": "Italy",
+    "googleSearchResultCount": 14700000,
+    "googleSearchResultCountPerson": 550000
+  },
+  {
+    "birthYear": 1932,
+    "deathYear": 2016,
+    "name": "Umberto Eco",
+    "country": "Italy",
+    "googleSearchResultCount": 97300000,
+    "googleSearchResultCountPerson": 386000
+  },
+  {
+    "birthYear": 1809,
+    "deathYear": 1849,
+    "name": "Edgar Poe",
+    "country": "USA",
+    "googleSearchResultCount": 17200000,
+    "googleSearchResultCountPerson": 547000
+  },
+  {
+    "birthYear": 1835,
+    "deathYear": 1910,
+    "name": "Mark Twain",
+    "country": "USA",
+    "googleSearchResultCount": 46500000,
+    "googleSearchResultCountPerson": 512000
+  },
+  {
+    "birthYear": 1871,
+    "deathYear": 1945,
+    "name": "Theodore Draiser",
+    "country": "USA",
+    "googleSearchResultCount": 1100000,
+    "googleSearchResultCountPerson": 125000
+  },
+  {
+    "birthYear": 1876,
+    "deathYear": 1916,
+    "name": "Jack London",
+    "country": "USA",
+    "googleSearchResultCount": 235000000,
+    "googleSearchResultCountPerson": 16700000
+  },
+  {
+    "birthYear": 1899,
+    "deathYear": 1961,
+    "name": "Ernest Hemingway",
+    "country": "USA",
+    "googleSearchResultCount": 17900000,
+    "googleSearchResultCountPerson": 504000
+  },
+  {
+    "birthYear": 1891,
+    "deathYear": 1980,
+    "name": "Henry Miller",
+    "country": "USA",
+    "googleSearchResultCount": 118000000,
+    "googleSearchResultCountPerson": 9490000
+  },
+  {
+    "birthYear": 1919,
+    "deathYear": 2010,
+    "name": "J. D. Salinger",
+    "country": "USA",
+    "googleSearchResultCount": 5000000,
+    "googleSearchResultCountPerson": 480000
+  },
+  {
+    "birthYear": 1920,
+    "deathYear": 1992,
+    "name": "Isaac Asimov",
+    "country": "USA",
+    "googleSearchResultCount": 1630000,
+    "googleSearchResultCountPerson": 439000
+  },
+  {
+    "birthYear": 1920,
+    "deathYear": 2012,
+    "name": "Ray Bradbury",
+    "country": "USA",
+    "googleSearchResultCount": 3470000,
+    "googleSearchResultCountPerson": 571000
+  },
+  {
+    "birthYear": 1935,
+    "deathYear": 2001,
+    "name": "Ken Kesey",
+    "country": "USA",
+    "googleSearchResultCount": 560000,
+    "googleSearchResultCountPerson": 552000
+  },
+  {
+    "birthYear": 1931,
+    "deathYear": null,
+    "name": "Irvin D. Yalom",
+    "country": "USA",
+    "googleSearchResultCount": 427000,
+    "googleSearchResultCountPerson": 35900
+  },
+  {
+    "birthYear": 1936,
+    "deathYear": null,
+    "name": "Richard Bach",
+    "country": "USA",
+    "googleSearchResultCount": 36000000,
+    "googleSearchResultCountPerson": 514000
+  },
+  {
+    "birthYear": 1947,
+    "deathYear": null,
+    "name": "Stephen King",
+    "country": "USA",
+    "googleSearchResultCount": 191000000,
+    "googleSearchResultCountPerson": 23100000
+  },
+  {
+    "birthYear": 1962,
+    "deathYear": null,
+    "name": "Chuck Palahniuk",
+    "country": "USA",
+    "googleSearchResultCount": 445000,
+    "googleSearchResultCountPerson": 363000
+  },
+  {
+    "birthYear": 1977,
+    "deathYear": null,
+    "name": "Jonathan Safran Foer",
+    "country": "USA",
+    "googleSearchResultCount": 534000,
+    "googleSearchResultCountPerson": 245000
+  },
+  {
+    "birthYear": 1940,
+    "deathYear": null,
+    "name": "J. M. Coetzee",
+    "country": "South Africa",
+    "googleSearchResultCount": 777000,
+    "googleSearchResultCountPerson": 387000
+  },
+  {
+    "birthYear": 1929,
+    "deathYear": null,
+    "name": "Milan Kundera",
+    "country": "Czech republic",
+    "googleSearchResultCount": 688000,
+    "googleSearchResultCountPerson": 216000
+  },
+  {
+    "birthYear": 1875,
+    "deathYear": 1961,
+    "name": "Carl Jung   ",
+    "country": "Switzerland",
+    "googleSearchResultCount": 25000000,
+    "googleSearchResultCountPerson": 491000
+  },
+  {
+    "birthYear": 1877,
+    "deathYear": 1962,
+    "name": "Hermann Hesse",
+    "country": "Switzerland",
+    "googleSearchResultCount": 7600000,
+    "googleSearchResultCountPerson": 487000
+  },
+  {
+    "birthYear": -1100,
+    "deathYear": -1000,
+    "name": "Homer",
+    "country": "Ancient Greece",
+    "googleSearchResultCount": 26700000,
+    "googleSearchResultCountPerson": 460000
+  },
+  {
+    "birthYear": -520,
+    "deathYear": -460,
+    "name": "Eshil",
+    "country": "Ancient Greece",
+    "googleSearchResultCount": 600000,
+    "googleSearchResultCountPerson": 235000
+  },
+  {
+    "birthYear": -497,
+    "deathYear": -406,
+    "name": "Sophocles",
+    "country": "Ancient Greece",
+    "googleSearchResultCount": 423000,
+    "googleSearchResultCountPerson": 405000
+  },
+  {
+    "birthYear": -480,
+    "deathYear": -406,
+    "name": "Euripides",
+    "country": "Ancient Greece",
+    "googleSearchResultCount": 2170000,
+    "googleSearchResultCountPerson": 386000
+  },
+  {
+    "birthYear": -446,
+    "deathYear": -386,
+    "name": "Aristophanes",
+    "country": "Ancient Greece",
+    "googleSearchResultCount": 627000,
+    "googleSearchResultCountPerson": 25800
+  }
+]

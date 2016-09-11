@@ -1,4 +1,6 @@
-package src.org.skywind;
+package org.skywind;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import static java.lang.Math.sqrt;
 
@@ -15,15 +17,6 @@ public class Author implements Comparable<Author> {
 
     private long googleSearchResultCount;
     private long googleSearchResultCountPerson;
-
-    public Author(String name, int birthYear, Integer deathYear, String country, int googleSearchResultCount, int googleSearchResultCountPerson) {
-        this.birthYear = birthYear;
-        this.deathYear = deathYear;
-        this.name = name;
-        this.country = country;
-        this.googleSearchResultCount = googleSearchResultCount;
-        this.googleSearchResultCountPerson = googleSearchResultCountPerson;
-    }
 
     public int getBirthYear() {
         return birthYear;
@@ -58,6 +51,7 @@ public class Author implements Comparable<Author> {
         return "    " + r + "   " + n + "   " + c;
     }
 
+    @JsonIgnore
     public Double getRating() {
         double ageK = (21L - birthYear / 100);
         //double ratingK = googleSearchResultCount;
