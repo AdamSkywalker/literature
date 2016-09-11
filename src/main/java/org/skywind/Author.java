@@ -2,9 +2,6 @@ package org.skywind;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-import java.text.DecimalFormat;
-import java.text.NumberFormat;
-
 /**
  * Created by sergey on 28.02.16.
  */
@@ -58,9 +55,9 @@ public class Author implements Comparable<Author> {
 
         String n = String.format("%1$-24s", name);
         String c = String.format("%1$-16s", country);
-        NumberFormat formatter = new DecimalFormat("#0.0");
+
         Rating r = this.rating;
-        String numbers = formatter.format(r.getRating()) + " " + r.search + " " + r.person + " " + r.gr;
+        String numbers = r.search + " " + r.person + " " + r.gr;
 
         return "    " + total + "   " + n + "   " + c + " " + numbers;
     }
