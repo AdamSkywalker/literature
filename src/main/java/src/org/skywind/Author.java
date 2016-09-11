@@ -51,11 +51,11 @@ public class Author implements Comparable<Author> {
 
     @Override
     public String toString() {
-        String r = String.format("%1$8d", new Double((getRating() * 100)).intValue());
+        String r = String.format("%08d", new Double((getRating() * 100)).intValue());
 
-        String n = String.format("%1$-20s", name);
+        String n = String.format("%1$-16s", name);
         String c = String.format("%1$-12s", country);
-        return "  " + r + "\t" + n + "\t" + c + "<br/>";
+        return "    " + r + "   " + n + "   " + c;
     }
 
     public Double getRating() {
