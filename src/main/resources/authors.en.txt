@@ -1,0 +1,114 @@
+Alexander Griboedov;1795;1829;Russia;574_000;181_000
+Alexander Pushkin;1799;1937;Russia;14_300_000;466_000
+Nikolai Gogol;1809;1852;Ukraine;676_000;479_000
+Ivan Goncharov;1812;1891;Russia;660_000;320_000
+Mikhail Lermontov;1814;1841;Russia;1_650_000;410_000
+Ivan Turgenev;1818;1883;Russia;817_000;404_000
+Fedor Dostoevskiy;1821;1881;Russia;1_430_000;485_000
+Lev Tolstoi;1828;1910;Russia;591_000;470_000
+Nikolay Chernishevskiy;1828;1889;Russia;415_000;144_000
+Anton Chekhov;1860;1904;Russia;1_050_000;480_000
+Maxim Gorkiy;1868;1936;Russia;671_000;467_000
+Vladimir Lenin;1870;1924;Russia;14_500_000;432_000
+Boris Pasternak;1890;1960;Russia;940_000;364_000
+Alexander Kuprin;1870;1938;Russia;600_000;265_000
+Mikhail Bulgakov;1891;1940;Russia;605_000;489_000
+Vladimir Nabokov;1899;1977;Russia;506_000;262_000
+
+
+Immanuele Kant;1724;1804;Germany;13_000_000;660_000
+Johann Goethe;1749;1832;Germany;12_300_000;470_000
+Georg Hegel;1770;1831;Germany;850_000;592_000
+Arthur Schopenhauer;1788;1860;Germany;758_000;440_000
+Karl Marx;1818;1883;Germany;53_900_000;500_000
+Friedrich Engels;1820;1895;Germany;8_330_000;332_000
+Friedrich Nietzsche;1844;1900;Germany;16_500_000;497_000
+Franz Kafka;1883;1924;Germany;12_300_000;467_000
+Adolph Hitler;1889;1945;Germany;41_000_000;604_000
+Martin Heidegger;1889;1976;Germany;7_280_000;546_000
+Erich Maria Remarque;1898;1970;Germany;660_000;136_000
+Erich Fromm;1900;1980;Germany;669_000;146_000
+
+Sigmund Freud;1856;1939;Austria;19_600_000;763_000
+Stefan Zweig;1881;1942;Austria;601_000;275_000
+
+Baruch Spinoza;1632;1677;Denmark;539_000;469_000
+Soren Kierkegaard;1813;1855;Denmark;528_000;411_000
+
+
+William Shakespeare;1564;1616;England;72_700_000;1_360_000
+John Milton;1608;1674;England;787_000;638_000
+Jane Austen;1775;1817;England;2_200_000;540_000
+George Gordon Byron;1788;1824;England;18_000_000;561_000
+John Keats;1795;1821;England;7_360_000;480_000
+Mary Shelley;1797;1851;England;34_300_000;599_000
+William Thackeray;1811;1863;England;585_000;403_000
+Charles Dickens;1812;1870;England;34_500_000;478_000
+Charlotte Bronte;1816;1855;England;806_000;519_000
+Charles Baudler;1821;1867;England;4_510_000;456_000
+Oscar Wilde;1856;1900;England;43_500_000;615_000
+Arthur Conan Doyle;1859;1930;England;8_440_000;550_000
+Ethel Voynich;1864;1960;England;50_000;278_000
+Herbert Wells;1866;1946;England;58_200_000;447_000
+Auldous Huxley;1894;1963;England;1_130_000;558_000
+George Oruell;1903;1950;England;20_200_000;480_000
+William Golding;1911;1993;England;908_000;382_000
+John Fowles;1926;2005;England;520_000;185_000
+Oliver Sacks;1933;2015;England;1_740_000;371_000
+
+Molière;1622;1673;France;5_240_000;300_000
+Voltaire;1694;1798;France;38_900_000;552_000
+Jean-Jacques Rousseau;1712;1778;France;23_800_000;539_000
+Denis Diderot;1713;1784;France;6_090_000;306_000
+Stendhal;1783;1842;France;6_180_000;225_000
+Honoré de Balzac;1799;1850;France;600_000;429_000
+Victor Hugo;1802;1885;France;81_100_000;500_000
+Alexandre Dumas;1802;1870;France;11_700_000;386_000
+George Sand;1804;1876;France;65_000_000;521_000
+Gustave Flaubert;1821;1880;France;852_000;426_000
+Jules Verne;1828;1905;France;19_700_000;496_000
+Émile Zola;1840;1902;France;7_340_000;292_000
+Guy de Maupassant;1850;1893;France;696_000;311_000
+Jean-Paul Sartre;1905;1980;France;9_350_000;436_000
+Antoine de Saint-Exupéry;1900;1940;France;2_720_000;397_000
+Simone de Beauvoir;1908;1986;France;13_030_000;1_970_000
+Albert Camus;1913;1960;France;15_100_000;1_970_000
+Frédéric Beigbeder;1965;null;France;1_350_000;77_000
+
+Dante Alighieri;1265;1321;Italy;14_700_000;550_000
+Umberto Eco;1932;2016;Italy;97_300_000;386_000
+
+Edgar Poe;1809;1849;USA;17_200_000;547_000
+Mark Twain;1835;1910;USA;46_500_000;512_000
+Theodore Draiser;1871;1945;USA;1_100_000;125_000
+Jack London;1876;1916;USA;235_000_000;16_700_000
+Ernest Hemingway;1899;1961;USA;17_900_000;504_000
+Henry Miller;1891;1980;USA;118_000_000;9_490_000
+J. D. Salinger;1919;2010;USA;5_000_000;480_000
+Isaac Asimov;1920;1992;USA;1_630_000;439_000
+Ray Bradbury;1920;2012;USA;3_470_000;571_000
+Ken Kesey;1935;2001;USA;560_000;552_000
+Irvin D. Yalom;1931;null;USA;427_000;35_900
+Richard Bach;1936;null;USA;36_000_000;514_000
+Stephen King;1947;null;USA;191_000_000;23_100_000
+Chuck Palahniuk;1962;null;USA;445_000;363_000
+Jonathan Safran Foer;1977;null;USA;534_000;245_000
+
+J. M. Coetzee;1940;null;South Africa;777_000;387_000
+
+Milan Kundera;1929;null;Czech republic;688_000;216_000
+
+Carl Jung   ;1875;1961;Switzerland;25_000_000;491_000
+Hermann Hesse;1877;1962;Switzerland;7_600_000;487_000
+
+Homer;-1100;-1000;Ancient Greece;26_700_000;460_000
+Eshil;-520;-460;Ancient Greece;600_000;235_000
+Sophocles;-497;-406;Ancient Greece;423_000;405_000
+Euripides;-480;-406;Ancient Greece;2_170_000;386_000
+Aristophanes;-446;-386;Ancient Greece;627_000;258_00
+
+
+
+
+
+

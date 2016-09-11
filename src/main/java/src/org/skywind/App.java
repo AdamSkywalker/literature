@@ -15,7 +15,7 @@ public class App {
     }
 
     private static List<Author> readAuthors() throws IOException {
-        InputStream is = App.class.getResourceAsStream("/authors.ru.txt");
+        InputStream is = App.class.getResourceAsStream("/authors.en.txt");
         BufferedReader br = new BufferedReader(new InputStreamReader(is));
 
         List<Author> authors = new ArrayList<>();

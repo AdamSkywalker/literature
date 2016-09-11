@@ -2,98 +2,98 @@
 
 Writers rating based on Google search results.
 
-    10660868   С. Кинг            США
-    07210503   Д. Лондон          США
-    01649955   Г. Миллер          США
-    00031917   У. Шекспир         Англия
-    00021800   А. Камю            Франция
-    00020251   С. де Бовуар       Франция
-    00004346   З. Фрейд           Австрия
-    00004207   О. Уайльд          Англия
-    00003939   А. Гитлер          Германия
-    00003866   М. Шелли           Англия
-    00003797   В. Гюго            Франция
-    00003698   Вольтер            Франция
-    00003690   Ж. Санд            Франция
-    00003095   К. Маркс           Германия
-    00003014   М. Твен            США
-    00002889   Э. Кант            Германия
-    00002642   Гомер              Греция
-    00002607   Ж. Руссо           Франция
-    00002570   Г. Уельс           Англия
-    00002514   Данте              Италия
-    00002456   Байрон             Англия
-    00002291   Р. Баx             США
-    00002263   Ч. Диккенс         Англия
-    00002124   У. Эко             Италия
-    00002092   Э. По              США
-    00002032   К. Юнг             Швейцария
-    00001841   Ж. Верн            Франция
-    00001812   Э. Хеммингуей      США
-    00001692   Ф. Ницше           Германия
-    00001510   А.С. Пушкин        Россия
-    00001496   Д. Оруелл          Англия
-    00001482   А. Конан Дойл      Англия
-    00001425   И. Гёте            Германия
-    00001356   М. Хайдеггер       Германия
-    00001289   Ф. Кафка           Германия
-    00001198   В. Ленин           Россия
-    00001150   Д. Китс            Англия
-    00001102   Г. Гёссе           Швейцария
-    00000877   Р. Бредбери        США
-    00000859   А. Дюма            Франция
-    00000840   Ж.П. Сартр         Франция
-    00000795   Джейн Остен        Англия
-    00000744   Д. Сэлиенджер      США
-    00000744   Ч. Бодлер          Англия
-    00000702   Мильтон            Англия
-    00000594   Г. Гегель          Германия
-    00000558   А. Хаксли          Англия
-    00000536   Ф. Энгельс         Германия
-    00000523   Еврипид            Греция
-    00000474   Ф.М. Достоевский   Россия
-    00000425   Д. Дидро           Франция
-    00000407   Ш. Бронте          Англия
-    00000400   Мольер             Франция
-    00000398   А.П. Чехов         Россия
-    00000389   Э. Золя            Франция
-    00000375   Экзюпери           Франция
-    00000364   М.Ю. Лермонтов     Россия
-    00000355   А. Азимов          США
-    00000329   К. Кейси           США
-    00000318   Н.В. Гоголь        Украина
-    00000314   Спиноза            Дания
-    00000313   М.А. Булгаков      Россия
-    00000310   Шопенгауер         Германия
-    00000301   М. Горький         Россия
-    00000286   Л.Н. Толстой       Россия
-    00000282   Г. Флобер          Франция
-    00000262   Оливер Сакс        Англия
-    00000262   О. Бальзак         Франция
-    00000254   Софокл             Греция
-    00000248   И.С. Тургенев      Россия
-    00000231   Стендаль           Франция
-    00000216   Б. Пастернак       Россия
-    00000209   В. Теккерей        Англия
-    00000207   Кьеркегор          Дания
-    00000201   В. Голдинг         Англия
-    00000190   Д. Кутзее          Ю.Африка
-    00000140   И.А. Гончаров      Россия
-    00000136   Г. Моппасан        Франция
-    00000127   Ч. Паланик         США
-    00000102   Эсхил              Греция
-    00000098   С. Цвейг           Австрия
-    00000091   А. Куприн          Россия
-    00000082   В. Набоков         Россия
-    00000063   С. Фоер            США
-    00000055   М. Кундера         Чехия
-    00000045   А.С. Грибоедов     Россия
-    00000035   Д. Фаулз           Англия
-    00000029   Э. Войнич          Англия
-    00000027   Т. Драйзер         США
-    00000025   Э.М. Ремарк        Германия
-    00000025   Э. Фромм           Германия
-    00000022   Н. Чернышевский    Россия
-    00000009   Ф. Бегбедер        Франция
-    00000001   Аристофан          Греция
-    00000001   И. Ялом            США
+    10660868   Stephen King               USA
+    07210503   Jack London                USA
+    01649955   Henry Miller               USA
+    00031917   William Shakespeare        England
+    00021800   Albert Camus               France
+    00020251   Simone de Beauvoir         France
+    00004346   Sigmund Freud              Austria
+    00004207   Oscar Wilde                England
+    00003939   Adolph Hitler              Germany
+    00003866   Mary Shelley               England
+    00003797   Victor Hugo                France
+    00003698   Voltaire                   France
+    00003690   George Sand                France
+    00003095   Karl Marx                  Germany
+    00003014   Mark Twain                 USA
+    00002889   Immanuele Kant             Germany
+    00002642   Homer                      Ancient Greece
+    00002607   Jean-Jacques Rousseau      France
+    00002570   Herbert Wells              England
+    00002514   Dante Alighieri            Italy
+    00002456   George Gordon Byron        England
+    00002291   Richard Bach               USA
+    00002263   Charles Dickens            England
+    00002124   Umberto Eco                Italy
+    00002092   Edgar Poe                  USA
+    00002032   Carl Jung                  Switzerland
+    00001841   Jules Verne                France
+    00001812   Ernest Hemingway           USA
+    00001692   Friedrich Nietzsche        Germany
+    00001510   Alexander Pushkin          Russia
+    00001496   George Oruell              England
+    00001482   Arthur Conan Doyle         England
+    00001425   Johann Goethe              Germany
+    00001356   Martin Heidegger           Germany
+    00001289   Franz Kafka                Germany
+    00001198   Vladimir Lenin             Russia
+    00001150   John Keats                 England
+    00001102   Hermann Hesse              Switzerland
+    00000877   Ray Bradbury               USA
+    00000859   Alexandre Dumas            France
+    00000840   Jean-Paul Sartre           France
+    00000795   Jane Austen                England
+    00000744   J. D. Salinger             USA
+    00000744   Charles Baudler            England
+    00000702   John Milton                England
+    00000594   Georg Hegel                Germany
+    00000558   Auldous Huxley             England
+    00000536   Friedrich Engels           Germany
+    00000523   Euripides                  Ancient Greece
+    00000474   Fedor Dostoevskiy          Russia
+    00000425   Denis Diderot              France
+    00000407   Charlotte Bronte           England
+    00000400   Molière                    France
+    00000398   Anton Chekhov              Russia
+    00000389   Émile Zola                 France
+    00000375   Antoine de Saint-Exupéry   France
+    00000364   Mikhail Lermontov          Russia
+    00000355   Isaac Asimov               USA
+    00000329   Ken Kesey                  USA
+    00000318   Nikolai Gogol              Ukraine
+    00000314   Baruch Spinoza             Denmark
+    00000313   Mikhail Bulgakov           Russia
+    00000310   Arthur Schopenhauer        Germany
+    00000301   Maxim Gorkiy               Russia
+    00000286   Lev Tolstoi                Russia
+    00000282   Gustave Flaubert           France
+    00000262   Oliver Sacks               England
+    00000262   Honoré de Balzac           France
+    00000254   Sophocles                  Ancient Greece
+    00000248   Ivan Turgenev              Russia
+    00000231   Stendhal                   France
+    00000216   Boris Pasternak            Russia
+    00000209   William Thackeray          England
+    00000207   Soren Kierkegaard          Denmark
+    00000201   William Golding            England
+    00000190   J. M. Coetzee              South Africa
+    00000140   Ivan Goncharov             Russia
+    00000136   Guy de Maupassant          France
+    00000127   Chuck Palahniuk            USA
+    00000102   Eshil                      Ancient Greece
+    00000098   Stefan Zweig               Austria
+    00000091   Alexander Kuprin           Russia
+    00000082   Vladimir Nabokov           Russia
+    00000063   Jonathan Safran Foer       USA
+    00000055   Milan Kundera              Czech republic
+    00000045   Alexander Griboedov        Russia
+    00000035   John Fowles                England
+    00000029   Ethel Voynich              England
+    00000027   Theodore Draiser           USA
+    00000025   Erich Maria Remarque       Germany
+    00000025   Erich Fromm                Germany
+    00000022   Nikolay Chernishevskiy     Russia
+    00000009   Frédéric Beigbeder         France
+    00000001   Aristophanes               Ancient Greece
+    00000001   Irvin D. Yalom             USA

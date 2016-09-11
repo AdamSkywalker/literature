@@ -53,8 +53,8 @@ public class Author implements Comparable<Author> {
     public String toString() {
         String r = String.format("%08d", new Double((getRating() * 100)).intValue());
 
-        String n = String.format("%1$-16s", name);
-        String c = String.format("%1$-12s", country);
+        String n = String.format("%1$-24s", name);
+        String c = String.format("%1$-16s", country);
         return "    " + r + "   " + n + "   " + c;
     }
 
