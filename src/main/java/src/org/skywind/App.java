@@ -1,4 +1,4 @@
-package org.skywind;
+package src.org.skywind;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -15,7 +15,7 @@ public class App {
     }
 
     private static List<Author> readAuthors() throws IOException {
-        InputStream is = App.class.getResourceAsStream("authors.ru.txt");
+        InputStream is = App.class.getResourceAsStream("/authors.ru.txt");
         BufferedReader br = new BufferedReader(new InputStreamReader(is));
 
         List<Author> authors = new ArrayList<>();
@@ -31,7 +31,9 @@ public class App {
                                 Integer.valueOf(parts[1]),
                                 ("null".equals(parts[2]) ? null : Integer.parseInt(parts[2])),
                                 parts[3],
-                                Integer.parseInt(parts[4].replaceAll("_", ""))));
+                                Integer.parseInt(parts[4].replaceAll("_", "")),
+                                Integer.parseInt(parts[5].replaceAll("_", ""))
+                        ));
             } catch (Exception e) {
                 System.out.println(line);
                 throw e;

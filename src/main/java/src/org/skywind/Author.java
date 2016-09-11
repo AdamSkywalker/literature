@@ -1,4 +1,6 @@
-package org.skywind;
+package src.org.skywind;
+
+import static java.lang.Math.sqrt;
 
 /**
  * Created by sergey on 28.02.16.
@@ -11,14 +13,16 @@ public class Author implements Comparable<Author> {
     private String name;
     private String country;
 
-    private int googleSearchResultCount;
+    private long googleSearchResultCount;
+    private long googleSearchResultCountPerson;
 
-    public Author(String name, int birthYear, Integer deathYear, String country, int googleSearchResultCount) {
+    public Author(String name, int birthYear, Integer deathYear, String country, int googleSearchResultCount, int googleSearchResultCountPerson) {
         this.birthYear = birthYear;
         this.deathYear = deathYear;
         this.name = name;
         this.country = country;
         this.googleSearchResultCount = googleSearchResultCount;
+        this.googleSearchResultCountPerson = googleSearchResultCountPerson;
     }
 
     public int getBirthYear() {
@@ -37,8 +41,12 @@ public class Author implements Comparable<Author> {
         return country;
     }
 
-    public int getGoogleSearchResultCount() {
+    public long getGoogleSearchResultCount() {
         return googleSearchResultCount;
+    }
+
+    public long getGoogleSearchResultCountPerson() {
+        return googleSearchResultCountPerson;
     }
 
     @Override
@@ -48,18 +56,21 @@ public class Author implements Comparable<Author> {
                 ", deathYear=" + deathYear +
                 ", name='" + name + '\'' +
                 ", country='" + country + '\'' +
-                ", googleSearchResultCount=" + googleSearchResultCount +
-                ", rating=" + getRating().intValue() +
+                ", rating=" + getRating() +
                 '}';
     }
 
     public Double getRating() {
-        double ageK = 21L - birthYear / 100;
-        return smoothRanking(ageK) * googleSearchResultCount / 1000;
+        double ageK = (21L - birthYear / 100);
+        //double ratingK = googleSearchResultCount;
+        double s = 0.0000001 * googleSearchResultCount;
+        double p = 0.001 * googleSearchResultCountPerson;
+        double ratingK = 0.00001 * sqrt(s) * p * p;
+        return smoothRanking(ageK) * ratingK;
     }
 
     protected static double smoothRanking(double rating) {
-        return 4 * rating / (rating + 1) - 1;
+        return 8 * rating / (rating + 1.5);
     }
 
     @Override
