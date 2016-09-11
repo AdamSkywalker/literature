@@ -138,6 +138,15 @@
     "goodReadingRating": 3.88
   },
   {
+    "birthYear": 1921,
+    "deathYear": 2006,
+    "name": "Stanisław Lem",
+    "country": "Ukraine",
+    "googleSearchResultCount": 534000,
+    "googleSearchResultCountPerson": 147000,
+    "goodReadingRating": 4.02
+  },
+  {
     "birthYear": 1724,
     "deathYear": 1804,
     "name": "Immanuele Kant",
@@ -398,6 +407,15 @@
     "goodReadingRating": 3.8
   },
   {
+    "birthYear": 1892,
+    "deathYear": 1973,
+    "name": "J. R. R. Tolkien",
+    "country": "England",
+    "googleSearchResultCount": 8600000,
+    "googleSearchResultCountPerson": 514000,
+    "goodReadingRating": 4.3
+  },
+  {
     "birthYear": 1894,
     "deathYear": 1963,
     "name": "Auldous Huxley",
@@ -438,6 +456,15 @@
     "country": "England",
     "googleSearchResultCount": 1740000,
     "googleSearchResultCountPerson": 371000
+  },
+  {
+    "birthYear": 1965,
+    "deathYear": null,
+    "name": "J. K. Rowling",
+    "country": "England",
+    "googleSearchResultCount": 30800000,
+    "googleSearchResultCountPerson": 583000,
+    "goodReadingRating": 4.42
   },
   {
     "birthYear": 1622,
@@ -691,6 +718,15 @@
     "googleSearchResultCount": 3470000,
     "googleSearchResultCountPerson": 571000,
     "goodReadingRating": 3.99
+  },
+  {
+    "birthYear": 1928,
+    "deathYear": 1982,
+    "name": "Philip K. Dick",
+    "country": "USA",
+    "googleSearchResultCount": 3890000,
+    "googleSearchResultCountPerson": 2350000,
+    "goodReadingRating": 3.94
   },
   {
     "birthYear": 1935,

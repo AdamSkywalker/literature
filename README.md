@@ -2,7 +2,7 @@
 
 Writers rating based on google search results and goodreads.com rates.<br/>
 
-Current formula: 0.8 r1 + 0.8 r2 + 2.4 r3, where
+Current formula: r1 + r2 + r3, where
 
 r1 - points from google search results by '%authorname%' query, e.g. 'Mark Twain' <br/>
 r2 - points from google search results by '%authorname% writer' query, e.g. 'Mark Twain writer'<br/>
@@ -16,98 +16,102 @@ First number is author rating. Last three numbers are inverted r1, r2, r3 number
 E.g. Stephen King row means he is #2 in google search query, #1 in google search person query and #26 in goodreads.com
 
 
-    3344   Oscar Wilde                England          11 10 12
-    3304   Edgar Poe                  USA              25 22 5
-    3288   Arthur Conan Doyle         England          37 21 2
-    3264   Victor Hugo                France           5 32 10
-    3256   Carl Jung                  Switzerland      18 35 5
-    3152   Stephen King               USA              2 1 26
-    3080   Simone de Beauvoir         France           31 5 18
-    3072   John Keats                 England          40 42 3
-    3008   Jack London                USA              1 2 32
-    2984   Charles Baudler            England          47 52 1
-    2944   Martin Heidegger           Germany          42 23 14
-    2944   Jane Austen                England          50 24 11
-    2928   Dante Alighieri            Italy            28 21 20
-    2920   Friedrich Nietzsche        Germany          26 33 17
-    2912   Fedor Dostoevskiy          Russia           55 38 6
-    2872   Albert Camus               France           27 5 28
-    2847   Alexander Pushkin          Russia           30 50 13
-    2775   Alexandre Dumas            France           35 69 8
-    2768   George Gordon Byron        England          23 16 30
-    2712   Isaac Asimov               USA              54 55 9
-    2696   William Shakespeare        England          6 6 42
-    2695   Mikhail Lermontov          Russia           53 61 8
-    2680   George Oruell              England          20 42 26
-    2680   Ray Bradbury               USA              48 14 26
-    2664   Hermann Hesse              Switzerland      39 37 22
-    2600   Henry Miller               USA              3 3 48
-    2568   Immanuele Kant             Germany          32 8 38
-    2552   Richard Bach               USA              14 28 38
-    2528   Nikolai Gogol              Ukraine          71 43 15
-    2512   Auldous Huxley             England          57 17 29
-    2472   Umberto Eco                Italy            4 69 31
-    2464   Anton Chekhov              Russia           59 42 22
-    2456   Erich Maria Remarque       Germany          75 15 26
-    2432   Mark Twain                 USA              10 29 44
-    2400   Jules Verne                France           21 34 40
-    2392   Jean-Paul Sartre           France           36 56 28
-    2336   Boris Pasternak            Russia           60 72 17
-    2320   Lev Tolstoi                Russia           82 46 19
-    2320   Vladimir Lenin             Russia           29 57 33
-    2320   Charles Dickens            England          15 44 42
-    2224   Franz Kafka                Germany          34 49 38
-    2216   Ernest Hemingway           USA              24 30 48
-    2096   John Milton                England          66 9 46
-    1992   J. D. Salinger             USA              46 42 46
-    1968   Ivan Turgenev              Russia           64 63 34
-    1712   Stendhal                   France           43 86 44
-    1640   Theodore Draiser           USA              58 92 40
-    1576   Vladimir Nabokov           Russia           90 83 35
-    1480   Sigmund Freud              Austria          22 7 87
-    1384   Voltaire                   France           13 19 90
-    1368   Mary Shelley               England          16 12 92
-    1336   Adolph Hitler              Germany          12 11 95
-    1280   George Sand                France           7 26 94
-    1240   Jean-Jacques Rousseau      France           19 25 92
-    1240   Karl Marx                  Germany          9 32 93
-    1224   Herbert Wells              England          8 53 87
-    1104   Georg Hegel                Germany          63 13 87
-    1096   Homer                      Ancient Greece   17 51 90
-    1048   Johann Goethe              Germany          34 46 88
-    0976   Charlotte Bronte           England          65 27 87
-    0880   Ken Kesey                  USA              85 19 87
-    0816   Friedrich Engels           Germany          38 74 87
-    0808   Mikhail Bulgakov           Russia           77 36 87
-    0800   Antoine de Saint-Exupéry   France           49 65 87
-    0752   Émile Zola                 France           41 79 87
-    0752   Euripides                  Ancient Greece   51 69 87
-    0744   Maxim Gorkiy               Russia           72 49 87
-    0744   Denis Diderot              France           44 77 87
-    0744   Gustave Flaubert           France           62 59 87
-    0736   Arthur Schopenhauer        Germany          68 54 87
-    0728   Oliver Sacks               England          52 71 87
-    0728   Molière                    France           45 78 87
-    0664   William Golding            England          61 70 87
-    0648   Baruch Spinoza             Denmark          86 47 87
-    0648   J. M. Coetzee              South Africa     67 66 87
-    0600   Honoré de Balzac           France           81 58 87
-    0552   Guy de Maupassant          France           69 76 87
-    0536   William Thackeray          England          83 64 87
-    0528   Soren Kierkegaard          Denmark          88 60 87
-    0520   Frédéric Beigbeder         France           56 93 87
-    0512   Ivan Goncharov             Russia           75 75 87
-    0472   Sophocles                  Ancient Greece   93 62 87
-    0455   Milan Kundera              Czech republic   70 87 87
-    0440   Stefan Zweig               Austria          78 81 87
-    0408   Alexander Kuprin           Russia           81 82 87
-    0408   Erich Fromm                Germany          73 90 87
-    0400   Chuck Palahniuk            USA              91 73 87
-    0384   Eshil                      Ancient Greece   81 85 87
-    0344   Jonathan Safran Foer       USA              87 84 87
-    0344   Aristophanes               Ancient Greece   76 95 87
-    0328   Alexander Griboedov        Russia           84 89 87
-    0312   Ethel Voynich              England          95 80 87
-    0296   John Fowles                England          89 88 87
-    0232   Nikolay Chernishevskiy     Russia           94 91 87
-    0224   Irvin D. Yalom             USA              92 94 87
+    2623   Stephen King               USA              2 1 29
+    2613   J. K. Rowling              England          17 15 1
+    2583   Oscar Wilde                England          11 11 14
+    2554   Jack London                USA              1 2 36
+    2425   Victor Hugo                France           5 35 12
+    2375   Edgar Poe                  USA              26 24 7
+    2366   Henry Miller               USA              3 3 52
+    2366   Simone de Beauvoir         France           32 6 20
+    2356   William Shakespeare        England          6 7 46
+    2306   Carl Jung                  Switzerland      19 38 7
+    2296   Albert Camus               France           28 6 31
+    2286   Arthur Conan Doyle         England          39 23 4
+    2237   J. R. R. Tolkien           England          38 31 2
+    2197   George Gordon Byron        England          24 18 33
+    2197   Dante Alighieri            Italy            29 23 23
+    2128   Friedrich Nietzsche        Germany          27 36 19
+    2108   Immanuele Kant             Germany          33 9 42
+    2098   Martin Heidegger           Germany          44 25 16
+    2079   Richard Bach               USA              14 31 42
+    2069   Philip K. Dick             USA              50 4 34
+    2049   Mark Twain                 USA              10 32 48
+    2029   Jane Austen                England          53 26 13
+    2029   John Keats                 England          42 45 5
+    1999   George Oruell              England          21 45 29
+    1989   Ray Bradbury               USA              51 16 29
+    1960   Alexander Pushkin          Russia           31 53 15
+    1920   Jules Verne                France           22 37 44
+    1890   Hermann Hesse              Switzerland      41 40 25
+    1881   Fedor Dostoevskiy          Russia           58 41 8
+    1881   Charles Baudler            England          49 55 3
+    1871   Charles Dickens            England          15 47 46
+    1851   Ernest Hemingway           USA              25 33 52
+    1841   Auldous Huxley             England          60 19 32
+    1841   Umberto Eco                Italy            4 72 35
+    1772   Alexandre Dumas            France           36 72 10
+    1732   Sigmund Freud              Austria          23 8 91
+    1722   Adolph Hitler              Germany          12 12 99
+    1712   Erich Maria Remarque       Germany          78 17 29
+    1702   Mary Shelley               England          16 13 96
+    1692   Isaac Asimov               USA              57 58 11
+    1683   Vladimir Lenin             Russia           30 60 37
+    1683   Jean-Paul Sartre           France           37 59 31
+    1673   Voltaire                   France           13 21 94
+    1663   Franz Kafka                Germany          35 52 42
+    1663   John Milton                England          69 10 50
+    1653   Mikhail Lermontov          Russia           56 64 10
+    1633   Anton Chekhov              Russia           62 45 25
+    1623   George Sand                France           7 28 98
+    1583   Nikolai Gogol              Ukraine          74 46 17
+    1544   Karl Marx                  Germany          9 35 97
+    1524   Jean-Jacques Rousseau      France           20 27 96
+    1524   J. D. Salinger             USA              48 45 50
+    1405   Herbert Wells              England          8 56 91
+    1395   Lev Tolstoi                Russia           85 49 22
+    1386   Boris Pasternak            Russia           63 75 19
+    1296   Homer                      Ancient Greece   18 54 94
+    1247   Georg Hegel                Germany          66 14 91
+    1247   Ivan Turgenev              Russia           67 66 38
+    1197   Johann Goethe              Germany          35 49 92
+    1138   Stendhal                   France           45 89 48
+    1079   Charlotte Bronte           England          68 29 91
+    0960   Ken Kesey                  USA              88 21 91
+    0950   Theodore Draiser           USA              61 96 44
+    0900   Stanisław Lem              Ukraine          91 93 22
+    0881   Friedrich Engels           Germany          40 77 91
+    0861   Mikhail Bulgakov           Russia           80 39 91
+    0851   Antoine de Saint-Exupéry   France           52 68 91
+    0801   Émile Zola                 France           43 82 91
+    0792   Denis Diderot              France           46 80 91
+    0792   Euripides                  Ancient Greece   54 72 91
+    0782   Maxim Gorkiy               Russia           75 52 91
+    0782   Gustave Flaubert           France           65 62 91
+    0772   Vladimir Nabokov           Russia           94 86 39
+    0772   Arthur Schopenhauer        Germany          71 57 91
+    0772   Molière                    France           47 81 91
+    0762   Oliver Sacks               England          55 74 91
+    0683   William Golding            England          64 73 91
+    0663   Baruch Spinoza             Denmark          89 50 91
+    0663   J. M. Coetzee              South Africa     70 69 91
+    0603   Honoré de Balzac           France           84 61 91
+    0544   Guy de Maupassant          France           72 79 91
+    0524   William Thackeray          England          86 67 91
+    0504   Soren Kierkegaard          Denmark          92 63 91
+    0495   Ivan Goncharov             Russia           78 78 91
+    0495   Frédéric Beigbeder         France           59 97 91
+    0435   Sophocles                  Ancient Greece   97 65 91
+    0425   Milan Kundera              Czech republic   73 90 91
+    0405   Stefan Zweig               Austria          81 84 91
+    0366   Alexander Kuprin           Russia           84 85 91
+    0356   Erich Fromm                Germany          76 94 91
+    0346   Chuck Palahniuk            USA              95 76 91
+    0336   Eshil                      Ancient Greece   84 88 91
+    0277   Jonathan Safran Foer       USA              91 87 91
+    0277   Aristophanes               Ancient Greece   79 99 91
+    0267   Alexander Griboedov        Russia           87 92 91
+    0237   Ethel Voynich              England          99 83 91
+    0217   John Fowles                England          93 91 91
+    0128   Nikolay Chernishevskiy     Russia           98 95 91
+    0118   Irvin D. Yalom             USA              96 98 91

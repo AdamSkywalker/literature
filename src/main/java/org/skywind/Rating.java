@@ -26,8 +26,8 @@ public class Rating {
     }
 
     public double getRating() {
-        return 0.8 * (App.SIZE - search) +
-                0.8 * (App.SIZE - person) +
-                2.4 * (App.SIZE - gr);
+        return 0.99 * (App.SIZE - search) +
+                0.99 * (App.SIZE - person) +
+                0.99 * (App.SIZE - gr);
     }
 }
