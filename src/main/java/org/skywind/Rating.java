@@ -28,6 +28,6 @@ public class Rating {
     public double getRating() {
         return 0.99 * (App.SIZE - search) +
                 0.99 * (App.SIZE - person) +
-                0.99 * (App.SIZE - gr);
+                1.99 * (App.SIZE - gr);
     }
 }
