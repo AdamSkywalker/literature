@@ -5,7 +5,8 @@
     "name": "Alexander Griboedov",
     "country": "Russia",
     "googleSearchResultCount": 574000,
-    "googleSearchResultCountPerson": 181000
+    "googleSearchResultCountPerson": 181000,
+    "goodReadingRating": 4.0
   },
   {
     "birthYear": 1799,
@@ -31,7 +32,8 @@
     "name": "Ivan Goncharov",
     "country": "Russia",
     "googleSearchResultCount": 660000,
-    "googleSearchResultCountPerson": 320000
+    "googleSearchResultCountPerson": 320000,
+    "goodReadingRating": 3.98
   },
   {
     "birthYear": 1814,
@@ -75,7 +77,8 @@
     "name": "Nikolay Chernishevskiy",
     "country": "Russia",
     "googleSearchResultCount": 415000,
-    "googleSearchResultCountPerson": 144000
+    "googleSearchResultCountPerson": 144000,
+    "goodReadingRating": 3.48
   },
   {
     "birthYear": 1860,
@@ -92,7 +95,8 @@
     "name": "Maxim Gorkiy",
     "country": "Russia",
     "googleSearchResultCount": 671000,
-    "googleSearchResultCountPerson": 467000
+    "googleSearchResultCountPerson": 467000,
+    "goodReadingRating": 3.85
   },
   {
     "birthYear": 1870,
@@ -118,7 +122,8 @@
     "name": "Alexander Kuprin",
     "country": "Russia",
     "googleSearchResultCount": 600000,
-    "googleSearchResultCountPerson": 265000
+    "googleSearchResultCountPerson": 265000,
+    "goodReadingRating": 4.08
   },
   {
     "birthYear": 1891,
@@ -126,7 +131,8 @@
     "name": "Mikhail Bulgakov",
     "country": "Russia",
     "googleSearchResultCount": 605000,
-    "googleSearchResultCountPerson": 489000
+    "googleSearchResultCountPerson": 489000,
+    "goodReadingRating": 4.26
   },
   {
     "birthYear": 1899,
@@ -170,7 +176,8 @@
     "name": "Georg Hegel",
     "country": "Germany",
     "googleSearchResultCount": 850000,
-    "googleSearchResultCountPerson": 592000
+    "googleSearchResultCountPerson": 592000,
+    "goodReadingRating": 3.87
   },
   {
     "birthYear": 1788,
@@ -178,7 +185,8 @@
     "name": "Arthur Schopenhauer",
     "country": "Germany",
     "googleSearchResultCount": 758000,
-    "googleSearchResultCountPerson": 440000
+    "googleSearchResultCountPerson": 440000,
+    "goodReadingRating": 4.02
   },
   {
     "birthYear": 1818,
@@ -195,7 +203,8 @@
     "name": "Friedrich Engels",
     "country": "Germany",
     "googleSearchResultCount": 8330000,
-    "googleSearchResultCountPerson": 332000
+    "googleSearchResultCountPerson": 332000,
+    "goodReadingRating": 3.61
   },
   {
     "birthYear": 1844,
@@ -248,7 +257,8 @@
     "name": "Erich Fromm",
     "country": "Germany",
     "googleSearchResultCount": 669000,
-    "googleSearchResultCountPerson": 146000
+    "googleSearchResultCountPerson": 146000,
+    "goodReadingRating": 4.12
   },
   {
     "birthYear": 1856,
@@ -265,7 +275,8 @@
     "name": "Stefan Zweig",
     "country": "Austria",
     "googleSearchResultCount": 601000,
-    "googleSearchResultCountPerson": 275000
+    "googleSearchResultCountPerson": 275000,
+    "goodReadingRating": 4.17
   },
   {
     "birthYear": 1632,
@@ -273,7 +284,8 @@
     "name": "Baruch Spinoza",
     "country": "Denmark",
     "googleSearchResultCount": 539000,
-    "googleSearchResultCountPerson": 469000
+    "googleSearchResultCountPerson": 469000,
+    "goodReadingRating": 4.00
   },
   {
     "birthYear": 1813,
@@ -281,7 +293,8 @@
     "name": "Soren Kierkegaard",
     "country": "Denmark",
     "googleSearchResultCount": 528000,
-    "googleSearchResultCountPerson": 411000
+    "googleSearchResultCountPerson": 411000,
+    "goodReadingRating": 4.08
   },
   {
     "birthYear": 1564,
@@ -343,7 +356,8 @@
     "name": "William Thackeray",
     "country": "England",
     "googleSearchResultCount": 585000,
-    "googleSearchResultCountPerson": 403000
+    "googleSearchResultCountPerson": 403000,
+    "goodReadingRating": 3.75
   },
   {
     "birthYear": 1812,
@@ -360,7 +374,8 @@
     "name": "Charlotte Bronte",
     "country": "England",
     "googleSearchResultCount": 806000,
-    "googleSearchResultCountPerson": 519000
+    "googleSearchResultCountPerson": 519000,
+    "goodReadingRating": 4.07
   },
   {
     "birthYear": 1821,
@@ -395,7 +410,8 @@
     "name": "Ethel Voynich",
     "country": "England",
     "googleSearchResultCount": 50000,
-    "googleSearchResultCountPerson": 278000
+    "googleSearchResultCountPerson": 278000,
+    "goodReadingRating": 4.15
   },
   {
     "birthYear": 1866,
@@ -404,7 +420,7 @@
     "country": "England",
     "googleSearchResultCount": 58200000,
     "googleSearchResultCountPerson": 447000,
-    "goodReadingRating": 3.8
+    "goodReadingRating": 3.81
   },
   {
     "birthYear": 1892,
@@ -439,7 +455,8 @@
     "name": "William Golding",
     "country": "England",
     "googleSearchResultCount": 908000,
-    "googleSearchResultCountPerson": 382000
+    "googleSearchResultCountPerson": 382000,
+    "goodReadingRating": 3.63
   },
   {
     "birthYear": 1926,
@@ -447,7 +464,9 @@
     "name": "John Fowles",
     "country": "England",
     "googleSearchResultCount": 520000,
-    "googleSearchResultCountPerson": 185000
+    "googleSearchResultCountPerson": 185000,
+    "goodReadingRating": 3.93
+
   },
   {
     "birthYear": 1933,
@@ -455,7 +474,8 @@
     "name": "Oliver Sacks",
     "country": "England",
     "googleSearchResultCount": 1740000,
-    "googleSearchResultCountPerson": 371000
+    "googleSearchResultCountPerson": 371000,
+    "goodReadingRating": 4.00
   },
   {
     "birthYear": 1965,
@@ -472,7 +492,8 @@
     "name": "Molière",
     "country": "France",
     "googleSearchResultCount": 5240000,
-    "googleSearchResultCountPerson": 300000
+    "googleSearchResultCountPerson": 300000,
+    "goodReadingRating": 3.71
   },
   {
     "birthYear": 1694,
@@ -498,7 +519,8 @@
     "name": "Denis Diderot",
     "country": "France",
     "googleSearchResultCount": 6090000,
-    "googleSearchResultCountPerson": 306000
+    "googleSearchResultCountPerson": 306000,
+    "goodReadingRating": 3.71
   },
   {
     "birthYear": 1783,
@@ -515,7 +537,8 @@
     "name": "Honoré de Balzac",
     "country": "France",
     "googleSearchResultCount": 600000,
-    "googleSearchResultCountPerson": 429000
+    "googleSearchResultCountPerson": 429000,
+    "goodReadingRating": 3.8
   },
   {
     "birthYear": 1802,
@@ -550,7 +573,8 @@
     "name": "Gustave Flaubert",
     "country": "France",
     "googleSearchResultCount": 852000,
-    "googleSearchResultCountPerson": 426000
+    "googleSearchResultCountPerson": 426000,
+    "goodReadingRating": 3.66
   },
   {
     "birthYear": 1828,
@@ -567,7 +591,8 @@
     "name": "Émile Zola",
     "country": "France",
     "googleSearchResultCount": 7340000,
-    "googleSearchResultCountPerson": 292000
+    "googleSearchResultCountPerson": 292000,
+    "goodReadingRating": 3.91
   },
   {
     "birthYear": 1850,
@@ -575,7 +600,8 @@
     "name": "Guy de Maupassant",
     "country": "France",
     "googleSearchResultCount": 696000,
-    "googleSearchResultCountPerson": 311000
+    "googleSearchResultCountPerson": 311000,
+    "goodReadingRating": 3.86
   },
   {
     "birthYear": 1905,
@@ -592,7 +618,8 @@
     "name": "Antoine de Saint-Exupéry",
     "country": "France",
     "googleSearchResultCount": 2720000,
-    "googleSearchResultCountPerson": 397000
+    "googleSearchResultCountPerson": 397000,
+    "goodReadingRating": 4.26
   },
   {
     "birthYear": 1908,
@@ -618,7 +645,8 @@
     "name": "Frédéric Beigbeder",
     "country": "France",
     "googleSearchResultCount": 1350000,
-    "googleSearchResultCountPerson": 77000
+    "googleSearchResultCountPerson": 77000,
+    "goodReadingRating": 3.49
   },
   {
     "birthYear": 1265,
@@ -734,7 +762,8 @@
     "name": "Ken Kesey",
     "country": "USA",
     "googleSearchResultCount": 560000,
-    "googleSearchResultCountPerson": 552000
+    "googleSearchResultCountPerson": 552000,
+    "goodReadingRating": 4.18
   },
   {
     "birthYear": 1931,
@@ -742,7 +771,8 @@
     "name": "Irvin D. Yalom",
     "country": "USA",
     "googleSearchResultCount": 427000,
-    "googleSearchResultCountPerson": 35900
+    "googleSearchResultCountPerson": 35900,
+    "goodReadingRating": 4.15
   },
   {
     "birthYear": 1936,
@@ -768,7 +798,8 @@
     "name": "Chuck Palahniuk",
     "country": "USA",
     "googleSearchResultCount": 445000,
-    "googleSearchResultCountPerson": 363000
+    "googleSearchResultCountPerson": 363000,
+    "goodReadingRating": 3.83
   },
   {
     "birthYear": 1977,
@@ -776,7 +807,8 @@
     "name": "Jonathan Safran Foer",
     "country": "USA",
     "googleSearchResultCount": 534000,
-    "googleSearchResultCountPerson": 245000
+    "googleSearchResultCountPerson": 245000,
+    "goodReadingRating": 3.96
   },
   {
     "birthYear": 1940,
@@ -784,7 +816,8 @@
     "name": "J. M. Coetzee",
     "country": "South Africa",
     "googleSearchResultCount": 777000,
-    "googleSearchResultCountPerson": 387000
+    "googleSearchResultCountPerson": 387000,
+    "goodReadingRating": 3.76
   },
   {
     "birthYear": 1929,
@@ -792,7 +825,8 @@
     "name": "Milan Kundera",
     "country": "Czech republic",
     "googleSearchResultCount": 688000,
-    "googleSearchResultCountPerson": 216000
+    "googleSearchResultCountPerson": 216000,
+    "goodReadingRating": 4.0
   },
   {
     "birthYear": 1875,
@@ -827,7 +861,8 @@
     "name": "Eshil",
     "country": "Ancient Greece",
     "googleSearchResultCount": 600000,
-    "googleSearchResultCountPerson": 235000
+    "googleSearchResultCountPerson": 235000,
+    "goodReadingRating": 3.5
   },
   {
     "birthYear": -497,
@@ -835,7 +870,8 @@
     "name": "Sophocles",
     "country": "Ancient Greece",
     "googleSearchResultCount": 423000,
-    "googleSearchResultCountPerson": 405000
+    "googleSearchResultCountPerson": 405000,
+    "goodReadingRating": 3.73
   },
   {
     "birthYear": -480,
@@ -843,7 +879,8 @@
     "name": "Euripides",
     "country": "Ancient Greece",
     "googleSearchResultCount": 2170000,
-    "googleSearchResultCountPerson": 386000
+    "googleSearchResultCountPerson": 386000,
+    "goodReadingRating": 3.91
   },
   {
     "birthYear": -446,
@@ -851,6 +888,7 @@
     "name": "Aristophanes",
     "country": "Ancient Greece",
     "googleSearchResultCount": 627000,
-    "googleSearchResultCountPerson": 25800
+    "googleSearchResultCountPerson": 25800,
+    "goodReadingRating": 3.87
   }
 ]
