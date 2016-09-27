@@ -10,7 +10,7 @@
   },
   {
     "birthYear": 1799,
-    "deathYear": 1937,
+    "deathYear": 1837,
     "name": "Alexander Pushkin",
     "country": "Russia",
     "googleSearchResultCount": 14300000,
@@ -142,6 +142,15 @@
     "googleSearchResultCount": 506000,
     "googleSearchResultCountPerson": 262000,
     "goodReadingRating": 3.88
+  },
+  {
+    "birthYear": 1905,
+    "deathYear": 1984,
+    "name": "Mikhail Sholokhov",
+    "country": "Russia",
+    "googleSearchResultCount": 414000,
+    "googleSearchResultCountPerson": 155000,
+    "goodReadingRating": 4.03
   },
   {
     "birthYear": 1921,
@@ -423,6 +432,15 @@
     "goodReadingRating": 3.81
   },
   {
+    "birthYear": 1890,
+    "deathYear": 1976,
+    "name": "Agatha Christie",
+    "country": "England",
+    "googleSearchResultCount": 16300000,
+    "googleSearchResultCountPerson": 590000,
+    "goodReadingRating": 3.96
+  },
+  {
     "birthYear": 1892,
     "deathYear": 1973,
     "name": "J. R. R. Tolkien",
@@ -604,15 +622,6 @@
     "goodReadingRating": 3.86
   },
   {
-    "birthYear": 1905,
-    "deathYear": 1980,
-    "name": "Jean-Paul Sartre",
-    "country": "France",
-    "googleSearchResultCount": 9350000,
-    "googleSearchResultCountPerson": 436000,
-    "goodReadingRating": 3.97
-  },
-  {
     "birthYear": 1900,
     "deathYear": 1940,
     "name": "Antoine de Saint-Exupéry",
@@ -620,6 +629,15 @@
     "googleSearchResultCount": 2720000,
     "googleSearchResultCountPerson": 397000,
     "goodReadingRating": 4.26
+  },
+  {
+    "birthYear": 1905,
+    "deathYear": 1980,
+    "name": "Jean-Paul Sartre",
+    "country": "France",
+    "googleSearchResultCount": 9350000,
+    "googleSearchResultCountPerson": 436000,
+    "goodReadingRating": 3.97
   },
   {
     "birthYear": 1908,
@@ -638,6 +656,15 @@
     "googleSearchResultCount": 15100000,
     "googleSearchResultCountPerson": 1970000,
     "goodReadingRating": 3.97
+  },
+  {
+    "birthYear": 1961,
+    "deathYear": null,
+    "name": "Bernard Werber",
+    "country": "France",
+    "googleSearchResultCount": 470000,
+    "googleSearchResultCountPerson": 70000,
+    "goodReadingRating": 3.85
   },
   {
     "birthYear": 1965,
@@ -721,6 +748,15 @@
     "goodReadingRating": 3.81
   },
   {
+    "birthYear": 1896,
+    "deathYear": 1940,
+    "name": "F. Scott Fitzgerald",
+    "country": "USA",
+    "googleSearchResultCount": 3920000,
+    "googleSearchResultCountPerson": 2470000,
+    "goodReadingRating": 3.87
+  },
+  {
     "birthYear": 1919,
     "deathYear": 2010,
     "name": "J. D. Salinger",
@@ -740,12 +776,39 @@
   },
   {
     "birthYear": 1920,
+    "deathYear": 1994,
+    "name": "Charles Bukowski",
+    "country": "USA",
+    "googleSearchResultCount": 532000,
+    "googleSearchResultCountPerson": 480000,
+    "goodReadingRating": 4.02
+  },
+  {
+    "birthYear": 1920,
     "deathYear": 2012,
     "name": "Ray Bradbury",
     "country": "USA",
     "googleSearchResultCount": 3470000,
     "googleSearchResultCountPerson": 571000,
     "goodReadingRating": 3.99
+  },
+  {
+    "birthYear": 1922,
+    "deathYear": 2007,
+    "name": "Kurt Vonnegut",
+    "country": "USA",
+    "googleSearchResultCount": 519000,
+    "googleSearchResultCountPerson": 499000,
+    "goodReadingRating": 4.04
+  },
+  {
+    "birthYear": 1925,
+    "deathYear": 1998,
+    "name": "Carlos Castaneda",
+    "country": "USA",
+    "googleSearchResultCount": 462000,
+    "googleSearchResultCountPerson": 204000,
+    "goodReadingRating": 4.02
   },
   {
     "birthYear": 1928,
@@ -845,6 +908,15 @@
     "googleSearchResultCount": 7600000,
     "googleSearchResultCountPerson": 487000,
     "goodReadingRating": 4.0
+  },
+  {
+    "birthYear": 1927,
+    "deathYear": 2014,
+    "name": "Gabriel García Márquez",
+    "country": "Mexico",
+    "googleSearchResultCount": 9690000,
+    "googleSearchResultCountPerson": 500000,
+    "goodReadingRating": 3.94
   },
   {
     "birthYear": -1100,

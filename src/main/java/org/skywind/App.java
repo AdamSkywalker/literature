@@ -6,6 +6,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class App {
 
@@ -16,10 +17,11 @@ public class App {
         try (InputStream is = App.class.getResourceAsStream("/authors.json")) {
             List<Author> authors = mapper.readValue(is, new TypeReference<List<Author>>() {
             });
-            /*authors = authors.stream()
-                    .filter(a -> a.getBirthYear() > 1780)
-                    .filter(a -> a.getDeathYear() != null && a.getDeathYear() < 1950)
-                    .collect(Collectors.toList());*/
+            authors = authors.stream()
+                    //.filter(a -> a.getBirthYear() > 1780)
+                    .filter(a -> a.getBirthYear() < 1780)
+                    //.filter(a -> a.getDeathYear() != null && a.getDeathYear() < 1950)
+                    .collect(Collectors.toList());
 
             SIZE = authors.size();
             authors.stream().forEach(author -> {
