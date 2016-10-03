@@ -9,7 +9,6 @@ Ratings for authors in 18th century and earlier
     0366   Voltaire                   1694..1798        France              2  5 12
     0357   Baruch Spinoza             1632..1677        Denmark            16 10  3
     0357   Euripides                  480....406 B.C.   Ancient Greece     11 13  4
-    0337   John Milton                1608..1674        England            13  3  9
     0317   Johann Goethe              1749..1832        Germany             7  9 10
     0297   Homer                      1100..1000 B.C.   Ancient Greece      3 11 12
     0297   Jean-Jacques Rousseau      1712..1778        France              4  8 13

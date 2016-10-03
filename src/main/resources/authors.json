@@ -315,15 +315,6 @@
     "goodReadingRating": 3.85
   },
   {
-    "birthYear": 1608,
-    "deathYear": 1674,
-    "name": "John Milton",
-    "country": "England",
-    "googleSearchResultCount": 787000,
-    "googleSearchResultCountPerson": 638000,
-    "goodReadingRating": 3.82
-  },
-  {
     "birthYear": 1775,
     "deathYear": 1817,
     "name": "Jane Austen",
@@ -340,15 +331,6 @@
     "googleSearchResultCount": 18000000,
     "googleSearchResultCountPerson": 561000,
     "goodReadingRating": 3.95
-  },
-  {
-    "birthYear": 1795,
-    "deathYear": 1821,
-    "name": "John Keats",
-    "country": "England",
-    "googleSearchResultCount": 7360000,
-    "googleSearchResultCountPerson": 480000,
-    "goodReadingRating": 4.19
   },
   {
     "birthYear": 1797,
