@@ -5,7 +5,6 @@ Ratings for authors in 19th century
     1141   Edgar Poe                  1809..1849        USA                11  6  4
     1121   Oscar Wilde                1856..1900        England             5  2 10
     1111   Victor Hugo                1802..1885        France              1 11  8
-    0973   Charles Baudler            1821..1867        England            20 20  1
     0933   Fedor Dostoevskiy          1821..1881        Russia             22 14  5
     0873   Friedrich Nietzsche        1844..1900        Germany            12 12 14
     0872   George Gordon Byron        1788..1824        England            10  4 19
