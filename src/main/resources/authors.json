@@ -487,6 +487,15 @@
     "goodReadingRating": 3.74
   },
   {
+    "birthYear": 1667,
+    "deathYear": 1745,
+    "name": "Jonathan Swift",
+    "country": "Ireland",
+    "googleSearchResultCount": 22500000,
+    "googleSearchResultCountPerson": 943000,
+    "goodReadingRating": 3.66
+  },
+  {
     "birthYear": 1622,
     "deathYear": 1673,
     "name": "Molière",
