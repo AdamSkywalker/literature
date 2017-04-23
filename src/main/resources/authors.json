@@ -757,6 +757,15 @@
     "goodReadingRating": 3.87
   },
   {
+    "birthYear": 1902,
+    "deathYear": 1968,
+    "name": "John Steinbeck",
+    "country": "USA",
+    "googleSearchResultCount": 988000,
+    "googleSearchResultCountPerson": 436000,
+    "goodReadingRating": 3.9
+  },
+  {
     "birthYear": 1919,
     "deathYear": 2010,
     "name": "J. D. Salinger",
