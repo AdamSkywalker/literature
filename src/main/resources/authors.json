@@ -478,6 +478,15 @@
     "goodReadingRating": 4.42
   },
   {
+    "birthYear": 1882,
+    "deathYear": 1941,
+    "name": "James Joyce",
+    "country": "Ireland",
+    "googleSearchResultCount": 74100000,
+    "googleSearchResultCountPerson": 16800000,
+    "goodReadingRating": 3.74
+  },
+  {
     "birthYear": 1622,
     "deathYear": 1673,
     "name": "Molière",
@@ -595,13 +604,22 @@
     "goodReadingRating": 3.86
   },
   {
-    "birthYear": 1900,
-    "deathYear": 1940,
-    "name": "Antoine de Saint-Exupéry",
+    "birthYear": 1850,
+    "deathYear": 1893,
+    "name": "Guy de Maupassant",
     "country": "France",
-    "googleSearchResultCount": 2720000,
-    "googleSearchResultCountPerson": 397000,
-    "goodReadingRating": 4.26
+    "googleSearchResultCount": 696000,
+    "googleSearchResultCountPerson": 311000,
+    "goodReadingRating": 3.86
+  },
+  {
+    "birthYear": 1871,
+    "deathYear": 1922,
+    "name": "Marcel Proust",
+    "country": "France",
+    "googleSearchResultCount": 591000,
+    "googleSearchResultCountPerson": 516000,
+    "goodReadingRating": 4.22
   },
   {
     "birthYear": 1905,
