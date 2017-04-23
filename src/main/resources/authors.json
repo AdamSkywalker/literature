@@ -405,6 +405,15 @@
     "goodReadingRating": 3.81
   },
   {
+    "birthYear": 1882,
+    "deathYear": 1941,
+    "name": "Virginia Woolf",
+    "country": "England",
+    "googleSearchResultCount": 14200000,
+    "googleSearchResultCountPerson": 464000,
+    "goodReadingRating": 3.8
+  },
+  {
     "birthYear": 1890,
     "deathYear": 1976,
     "name": "Agatha Christie",
