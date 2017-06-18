@@ -23,13 +23,13 @@ public class App {
                     .collect(Collectors.toList());*/
 
             SIZE = authors.size();
-            authors.stream().forEach(author -> {
+            authors.forEach(author -> {
                 Ratings.INSTANCE.addSearch(author.getGoogleSearchResultCount());
                 Ratings.INSTANCE.addPerson(author.getGoogleSearchResultCountPerson());
                 Ratings.INSTANCE.addGoodReading(author.getGoodReadingRating());
             });
             Ratings.INSTANCE.init();
-            authors.stream().forEach(author -> author.setRating(new Rating()
+            authors.forEach(author -> author.setRating(new Rating()
                     .setSearch(Ratings.INSTANCE.getSearch(author.getGoogleSearchResultCount()))
                     .setPerson(Ratings.INSTANCE.getPerson(author.getGoogleSearchResultCountPerson()))
                     .setGr(Ratings.INSTANCE.getGR(author.getGoodReadingRating()))));
