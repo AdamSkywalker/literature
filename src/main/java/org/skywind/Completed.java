@@ -30,6 +30,6 @@ public class Completed {
             date = "20" + dateParts[dateParts.length - 1];
         }
 
-        return "      " + String.format("%1$-16s", author) + "   " + String.format("%1$-40s", title) + "   " + date;
+        return "      " + String.format("%1$-16s", author) + "   " + String.format("%1$-50s", title) + "   " + date;
     }
 }
