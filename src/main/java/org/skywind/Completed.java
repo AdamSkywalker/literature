@@ -4,6 +4,8 @@ import org.apache.commons.io.IOUtils;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 /**
  * Author: Sergey Saiyan sergey.sova42@gmail.com
@@ -15,13 +17,20 @@ public class Completed {
         try (InputStream is = Completed.class.getResourceAsStream("/completed.csv")) {
             IOUtils.readLines(is, "utf-8")
                     .stream()
-                    .filter(s -> !s.isEmpty())
-                    .map(s -> format(s.split(";")))
+                    //.filter(s -> !s.isEmpty())
+                    .map(Completed::format)
                     .forEach(System.out::println);
         }
     }
 
-    private static String format(String[] parts) {
+    private static String format(String line) {
+        if (line.isEmpty()) {
+            String sep = IntStream.range(0, 76).mapToObj(x -> "=").collect(Collectors.joining(""));
+            return  "\n" + "      " + sep + "\n";
+        }
+
+        String[] parts = line.split(";");
+
         String author = parts[0];
         String title = parts[1];
         String date = parts.length == 3 ? parts[2] : "";
