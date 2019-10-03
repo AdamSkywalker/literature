@@ -18,20 +18,35 @@ public class ReadMe {
         List<BookInfo> bookInfos = new ArrayList<>();
 
         StringBuilder sb = new StringBuilder();
-        sb.append("Последние прочитанные книги:\n");
-        sb.append("--\n\n");
 
-        for (int i = 0; i < lines.size(); i++) {
-            if (lines.get(i).trim().isEmpty()) {
-                for (int j = i - 10; j < i; j++) {
-                    sb.append(Formatter.format(bookInfos.get(j), false)).append("\n");
+        BookInfo.State state = BookInfo.State.DONE;
+        for (String line : lines) {
+            if (line.trim().isEmpty()) {
+                if (state == BookInfo.State.DONE) {
+                    state = BookInfo.State.IN_PROGRESS;
+                } else if (state == BookInfo.State.IN_PROGRESS) {
+                    state = BookInfo.State.TODO;
                 }
-                break;
             } else {
-                bookInfos.add(new BookInfo(lines.get(i)));
+                BookInfo book = new BookInfo(line);
+                book.setState(state);
+                bookInfos.add(book);
             }
         }
 
+        sb.append("Читаю сейчас:\n");
+        sb.append("--\n\n");
+        bookInfos.stream().filter(b -> b.getState() == BookInfo.State.IN_PROGRESS).forEach(bi -> {
+            sb.append(Formatter.format(bi, false)).append("\n");
+        });
+        sb.append("\n\n");
+
+        sb.append("Последние прочитанные книги:\n");
+        sb.append("--\n\n");
+        long totalRead = bookInfos.stream().filter(b -> b.getState() == BookInfo.State.DONE).count();
+        bookInfos.stream().skip(totalRead - 10).limit(10).forEach(bi -> {
+            sb.append(Formatter.format(bi, false)).append("\n");
+        });
         sb.append("\n\n");
 
         String term = ("" + Calendar.getInstance().get(Calendar.YEAR)).substring(2);
