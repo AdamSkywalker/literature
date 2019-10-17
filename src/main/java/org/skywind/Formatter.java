@@ -31,7 +31,7 @@ public class Formatter {
     }
 
     public static String format(BookInfo info, boolean withDate) {
-        return prefix + String.format("%1$-16s", info.author) + "   " +
+        return prefix + String.format("%1$-20s", info.author) + "   " +
                 String.format("%1$-50s", info.title) +
                 (withDate ? "   " + info.date : "");
     }
