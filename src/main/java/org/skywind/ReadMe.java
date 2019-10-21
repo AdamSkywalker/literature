@@ -14,7 +14,7 @@ package org.skywind;
 public class ReadMe {
 
     public static void main(String[] args) throws IOException {
-        List<String> lines = IOUtils.readLines(ReadMe.class.getResourceAsStream("/completed.csv"));
+        List<String> lines = IOUtils.readLines(ReadMe.class.getResourceAsStream("/completed.csv"), "UTF-8");
         List<BookInfo> bookInfos = new ArrayList<>();
 
         StringBuilder sb = new StringBuilder();
@@ -55,7 +55,7 @@ public class ReadMe {
         sb.append("--\n\n");
 
 
-        sb.append("Рекоммендую:\n");
+        sb.append("Рекомендую:\n");
         sb.append("--\n\n");
 
         bookInfos.stream().filter(i -> "2".equals(i.score)).forEach(book -> {
