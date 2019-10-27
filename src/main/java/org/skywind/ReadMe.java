@@ -54,6 +54,8 @@ public class ReadMe {
         sb.append("Прочитано в этом году: ").append(cnt).append("\n");
         sb.append("--\n\n");
 
+        sb.append("Полный список: [my-books.md](https://github.com/sergey-sw/literature/blob/master/my-books.md)").append("\n");
+        sb.append("--\n\n");
 
         sb.append("Рекомендую:\n");
         sb.append("--\n\n");

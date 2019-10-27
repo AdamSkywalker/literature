@@ -22,6 +22,9 @@
 Прочитано в этом году: 39
 --
 
+Полный список: [my-books.md](https://github.com/sergey-sw/literature/blob/master/my-books.md)
+--
+
 Рекомендую:
 --
 
