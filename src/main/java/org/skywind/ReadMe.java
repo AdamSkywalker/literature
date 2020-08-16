@@ -49,10 +49,16 @@ public class ReadMe {
         });
         sb.append("\n\n");
 
-        String term = ("" + Calendar.getInstance().get(Calendar.YEAR)).substring(2);
-        long cnt = lines.stream().filter(l -> l.contains(term)).count();
-        sb.append("Прочитано в этом году: ").append(cnt).append("\n");
+        sb.append("Прочитано в\n\n");
+        for (int i = 2; i >= 0; i--) {
+            int year = Calendar.getInstance().get(Calendar.YEAR) - i;
+
+            String term = ("" + year).substring(2);
+            long cnt = lines.stream().filter(l -> l.contains(term)).count();
+            sb.append("\t").append(year).append(" году: ").append(cnt).append("\n");
+        }
         sb.append("--\n\n");
+
 
         sb.append("Полный список: [my-books.md](https://github.com/sergey-sw/literature/blob/master/my-books.md)").append("\n");
         sb.append("--\n\n");
